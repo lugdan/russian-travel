@@ -1,5 +1,4 @@
 .header__language-switcher-item {
-  position: relative;
   list-style-type: none;
   font-family: "Inter", Arial, sans-serif;
   font-size: 18px;
@@ -7,4 +6,11 @@
   line-height: 20px;
   text-align: right;
   color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .header__language-switcher-item {
+    font-size: 24px;
+    line-height: 28px;
+  }
 }

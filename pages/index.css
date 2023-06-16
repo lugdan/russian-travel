@@ -9,3 +9,9 @@
 @import url(../blocks/header/__language-switcher/header__language-switcher.css);
 @import url(../blocks/header/__language-switcher-item/header__language-switcher-item.css);
 @import url(../blocks/header/__language-switcher-item/header__language-switcher-item_active.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__list-items/footer__list-items.css);
+@import url(../blocks/footer/__list-item/footer__list-item.css);
+@import url(../blocks/footer/__list-item-link/footer__list-item-link.css);
+@import url(../blocks/footer/__copyrights/footer__copyrights.css);

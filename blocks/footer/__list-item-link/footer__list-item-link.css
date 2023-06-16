@@ -1,0 +1,16 @@
+.footer__list-item-link {
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__list-item-link {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}

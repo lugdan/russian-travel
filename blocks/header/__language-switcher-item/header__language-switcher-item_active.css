@@ -1,2 +1,13 @@
-.header__language-switcher_active {
+.header__language-switcher-item_active {
+  position: relative;
+}
+
+.header__language-switcher-item_active::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  height: 1px;
+  width: 100%;
+  background: #fff;
 }
