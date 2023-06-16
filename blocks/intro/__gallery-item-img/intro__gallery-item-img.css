@@ -1,0 +1,4 @@
+.intro__gallery-item-img {
+  width: 100%;
+  object-fit: fill;
+}
