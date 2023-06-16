@@ -17,6 +17,13 @@
 @media screen and (min-width: 1024px) {
   .intro__gallery {
     grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro__gallery {
+    grid-template-columns: repeat(4, 1fr);
     gap: 16px;
   }
 }
