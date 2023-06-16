@@ -1,0 +1,18 @@
+.travels__title {
+  width: 100%;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 44px;
+  text-align: center;
+  color: #fff;
+  margin: 0 0 16px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .travels__title {
+    font-size: 96px;
+    line-height: 100px;
+    margin: 0 0 32px 0;
+  }
+}

@@ -1,0 +1,24 @@
+.travels__subtitle {
+  width: 100%;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: #fff;
+  margin: 0 0 40px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .travels__subtitle {
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0 0 56px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .travels__subtitle {
+    margin: 0 0 64px 0;
+  }
+}

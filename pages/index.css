@@ -10,6 +10,16 @@
 @import url(../blocks/header/__language-switcher-item/header__language-switcher-item.css);
 @import url(../blocks/header/__language-switcher-item/header__language-switcher-item_active.css);
 
+@import url(../blocks/container/container.css);
+
+@import url(../blocks/travels/travels.css);
+@import url(../blocks/travels/__title/travels__title.css);
+@import url(../blocks/travels/__subtitle/travels__subtitle.css);
+@import url(../blocks/travels/__image/travels__image.css);
+@import url(../blocks/travels/__image-subtitle/travels__image-subtitle.css);
+
+@import url(../blocks/travels/travels.css);
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__list-items/footer__list-items.css);
 @import url(../blocks/footer/__list-item/footer__list-item.css);
