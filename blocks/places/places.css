@@ -3,3 +3,15 @@
   padding-top: 32px;
   padding-bottom: 32px;
 }
+
+@media screen and (min-width: 768px) {
+  .places {
+    padding-block: 45px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .places {
+    padding-block: 46px;
+  }
+}

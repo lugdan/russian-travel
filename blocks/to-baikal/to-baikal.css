@@ -1,6 +1,17 @@
 .to-baikal {
   justify-content: center;
   background-color: #2a2c2f;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-block: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .to-baikal {
+    padding-block: 45px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .to-baikal {
+    padding-block: 46px;
+  }
 }
