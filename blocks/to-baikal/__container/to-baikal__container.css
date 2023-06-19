@@ -25,6 +25,12 @@
   z-index: 2;
 }
 
+@media (hover: hover) and (pointer: fine) {
+  .to-baikal__container {
+    cursor: pointer;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .to-baikal__container {
     min-height: 480px;

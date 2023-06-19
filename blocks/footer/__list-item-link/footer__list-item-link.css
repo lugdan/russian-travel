@@ -8,6 +8,12 @@
   text-decoration: none;
 }
 
+@media (hover: hover) and (pointer: fine) {
+  .footer__list-item-link {
+    cursor: pointer;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .footer__list-item-link {
     font-size: 16px;
