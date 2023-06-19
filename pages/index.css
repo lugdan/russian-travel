@@ -4,13 +4,16 @@
 
 @import url(../blocks/page/page.css);
 
+@import url(../blocks/wrapper/wrapper.css);
+
+@import url(../blocks/container/container.css);
+@import url(../blocks/container/_to-baikal_height/container_to-baikal_height.css);
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__language-switcher/header__language-switcher.css);
 @import url(../blocks/header/__language-switcher-item/header__language-switcher-item.css);
 @import url(../blocks/header/__language-switcher-item/header__language-switcher-item_active.css);
-
-@import url(../blocks/container/container.css);
 
 @import url(../blocks/travels/travels.css);
 @import url(../blocks/travels/__title/travels__title.css);
@@ -38,6 +41,12 @@
 @import url(../blocks/places/__item-image/places__item-image.css);
 @import url(../blocks/places/__item-text-box/places__item-text-box.css);
 @import url(../blocks/places/__item-text/places__item-text.css);
+
+@import url(../blocks/to-baikal/to-baikal.css);
+@import url(../blocks/to-baikal/__title/to-baikal__title.css);
+@import url(../blocks/to-baikal/__subtitle/to-baikal__subtitle.css);
+@import url(../blocks/to-baikal/__image/to-baikal__image.css);
+@import url(../blocks/to-baikal/__hover-block/to-baikal__hover-block.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__list-items/footer__list-items.css);

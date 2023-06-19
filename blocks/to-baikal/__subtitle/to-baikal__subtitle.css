@@ -1,0 +1,17 @@
+.to-baikal__subtitle {
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  z-index: 3;
+}
+
+@media screen and (min-width: 768px) {
+  .to-baikal__subtitle {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
