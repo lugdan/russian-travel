@@ -6,10 +6,3 @@
   object-fit: contain;
   transition: all 0.3s ease-in-out;
 }
-
-@media screen and (min-width: 1280px) {
-  .to-baikal__image {
-    width: calc(100% - 48px - 48px);
-    left: 48px;
-  }
-}

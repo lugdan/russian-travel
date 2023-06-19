@@ -5,8 +5,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-left: 16px;
-  padding-right: 16px;
   box-sizing: border-box;
   min-height: 200px;
   overflow: hidden;
@@ -48,15 +46,11 @@
 
 @media screen and (min-width: 1280px) {
   .to-baikal__container {
-    max-width: 1280px;
+    max-width: 1184px;
     min-height: 740px;
-    padding-left: 48px;
-    padding-right: 48px;
   }
 
   .to-baikal__container::after {
     min-height: 740px;
-    left: 48px;
-    min-width: calc(100% - 48px - 48px);
   }
 }
