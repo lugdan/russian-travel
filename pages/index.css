@@ -4,16 +4,18 @@
 
 @import url(../blocks/page/page.css);
 
+@import url(../blocks/content/content.css);
+
 @import url(../blocks/wrapper/wrapper.css);
 
 @import url(../blocks/container/container.css);
-@import url(../blocks/container/_to-baikal_height/container_to-baikal_height.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__language-switcher/header__language-switcher.css);
 @import url(../blocks/header/__language-switcher-item/header__language-switcher-item.css);
-@import url(../blocks/header/__language-switcher-item/header__language-switcher-item_active.css);
+@import url(../blocks/header/__language-switcher-item-text/_active/header__language-switcher-item-text_active.css);
+@import url(../blocks/header/__language-switcher-item-text/header__language-switcher-item-text.css);
 
 @import url(../blocks/travels/travels.css);
 @import url(../blocks/travels/__title/travels__title.css);
@@ -26,9 +28,11 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__list-item/intro__list-item.css);
-@import url(../blocks/intro/__gallery/intro__gallery.css);
-@import url(../blocks/intro/__gallery-item/intro__gallery-item.css);
-@import url(../blocks/intro/__gallery-item-img/intro__gallery-item-img.css);
+@import url(../blocks/intro/__list-item_number/intro__list-item_number.css);
+
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__item/gallery__item.css);
+@import url(../blocks/gallery/__item-img/gallery__item-img.css);
 
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/__item/places__item.css);
@@ -43,6 +47,7 @@
 @import url(../blocks/places/__item-text/places__item-text.css);
 
 @import url(../blocks/to-baikal/to-baikal.css);
+@import url(../blocks/to-baikal/__container/to-baikal__container.css);
 @import url(../blocks/to-baikal/__title/to-baikal__title.css);
 @import url(../blocks/to-baikal/__subtitle/to-baikal__subtitle.css);
 @import url(../blocks/to-baikal/__image/to-baikal__image.css);

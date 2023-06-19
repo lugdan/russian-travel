@@ -1,9 +1,12 @@
 .header {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  max-width: 1280px;
   padding: 16px 16px 0 16px;
   background-color: #2a2c2f;
+  box-sizing: border-box;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {

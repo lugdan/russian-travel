@@ -1,7 +1,14 @@
 .to-baikal {
+  position: relative;
   justify-content: center;
   background-color: #2a2c2f;
   padding-block: 32px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .to-baikal:hover .to-baikal__container::after {
+    opacity: 0.8;
+  }
 }
 
 @media screen and (min-width: 768px) {

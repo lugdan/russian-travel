@@ -18,9 +18,15 @@
           <li
             class="header__language-switcher-item header__language-switcher-item_active"
           >
-            Ru
+            <a
+              class="header__language-switcher-item-text header__language-switcher-item-text_active"
+              href="#"
+              >Ru</a
+            >
           </li>
-          <li class="header__language-switcher-item">En</li>
+          <li class="header__language-switcher-item">
+            <a class="header__language-switcher-item-text" href="#">En</a>
+          </li>
         </ul>
       </header>
       <main class="content">
@@ -28,7 +34,8 @@
           <div class="container">
             <h1 class="travels__title">Путешествия по России</h1>
             <p class="travels__subtitle">
-              Настоящая страна не в выпусках новостей, а здесь.
+              Настоящая страна не в выпусках <br />
+              новостей, а здесь.
             </p>
           </div>
 
@@ -56,108 +63,117 @@
               достойные вашего отпуска.
             </p>
             <ul class="intro__list">
-              <li class="intro__list-item">Часовых поясов 11</li>
               <li class="intro__list-item">
-                Объектов природного наследия ЮНЕСКО 12
+                Часовых поясов <span class="intro__list-item_number">11</span>
               </li>
               <li class="intro__list-item">
-                Объектов культурного наследия ЮНЕСКО 16
+                Объектов природного наследия ЮНЕСКО
+                <span class="intro__list-item_number">12</span>
               </li>
-              <li class="intro__list-item">Природных заповедников 105</li>
-              <li class="intro__list-item">Аэропортов 241</li>
-            </ul>
-            <ul class="intro__gallery">
-              <li class="intro__gallery-item">
-                <img
-                  class="intro__gallery-item-img"
-                  src="./images/photo-grid-train.jpg"
-                  alt="фото окна из поезда"
-                />
+              <li class="intro__list-item">
+                Объектов культурного наследия ЮНЕСКО
+                <span class="intro__list-item_number">16</span>
               </li>
-              <li class="intro__gallery-item">
-                <img
-                  class="intro__gallery-item-img"
-                  src="./images/photo-grid-atharva-tulsi.jpg"
-                  alt="фото гор с высоты птичьего полета"
-                />
+              <li class="intro__list-item">
+                Природных заповедников
+                <span class="intro__list-item_number">105</span>
               </li>
-              <li class="intro__gallery-item">
-                <img
-                  class="intro__gallery-item-img"
-                  src="./images/photo-grid-tuman.jpg"
-                  alt="фото стога сена в поле,на котором стоит собака"
-                />
-              </li>
-              <li class="intro__gallery-item">
-                <img
-                  class="intro__gallery-item-img"
-                  src="./images/photo-grid-sochi.jpg"
-                  alt="фото леса с высоты птичьего полета, окутанного туманом"
-                />
-              </li>
-              <li class="intro__gallery-item">
-                <img
-                  class="intro__gallery-item-img"
-                  src="./images/photo-grid-arisa.jpg"
-                  alt="фото льда на озере Байкал крупным планом"
-                />
-              </li>
-              <li class="intro__gallery-item">
-                <img
-                  class="intro__gallery-item-img"
-                  src="./images/photo-grid-baikal.jpg"
-                  alt="фото прибрежной области с горами на фоне"
-                />
-              </li>
-              <li class="intro__gallery-item">
-                <img
-                  class="intro__gallery-item-img"
-                  src="./images/photo-grid-elbrus.jpg"
-                  alt="фото хребтов гор Эльбруса"
-                />
-              </li>
-              <li class="intro__gallery-item">
-                <img
-                  class="intro__gallery-item-img"
-                  src="./images/photo-grid-kondratiev.jpg"
-                  alt="фото знака пешеходный перехода, на фоне бетонные конструкции"
-                />
-              </li>
-              <li class="intro__gallery-item">
-                <img
-                  class="intro__gallery-item-img"
-                  src="./images/photo-grid-kamchatka-1.jpg"
-                  alt="фото гористой местности Камчатки сверху"
-                />
-              </li>
-              <li class="intro__gallery-item">
-                <img
-                  class="intro__gallery-item-img"
-                  src="./images/photo-grid-kamchatka-2.jpg"
-                  alt="фото Камчатского вулкана"
-                />
-              </li>
-              <li class="intro__gallery-item">
-                <img
-                  class="intro__gallery-item-img"
-                  src="./images/photo-grid-baikal-2.jpg"
-                  alt="фото прибрежной части байкала"
-                />
-              </li>
-              <li class="intro__gallery-item">
-                <img
-                  class="intro__gallery-item-img"
-                  src="./images/photo-grid-ergaki.jpg"
-                  alt="фото природного парка Ергаки"
-                />
+              <li class="intro__list-item">
+                Аэропортов <span class="intro__list-item_number">241</span>
               </li>
             </ul>
           </div>
+          <ul class="gallery">
+            <li class="gallery__item">
+              <img
+                class="gallery__item-img"
+                src="./images/photo-grid-train.jpg"
+                alt="фото окна из поезда"
+              />
+            </li>
+            <li class="gallery__item">
+              <img
+                class="gallery__item-img"
+                src="./images/photo-grid-atharva-tulsi.jpg"
+                alt="фото гор с высоты птичьего полета"
+              />
+            </li>
+            <li class="gallery__item">
+              <img
+                class="gallery__item-img"
+                src="./images/photo-grid-tuman.jpg"
+                alt="фото стога сена в поле,на котором стоит собака"
+              />
+            </li>
+            <li class="gallery__item">
+              <img
+                class="gallery__item-img"
+                src="./images/photo-grid-sochi.jpg"
+                alt="фото леса с высоты птичьего полета, окутанного туманом"
+              />
+            </li>
+            <li class="gallery__item">
+              <img
+                class="gallery__item-img"
+                src="./images/photo-grid-arisa.jpg"
+                alt="фото льда на озере Байкал крупным планом"
+              />
+            </li>
+            <li class="gallery__item">
+              <img
+                class="gallery__item-img"
+                src="./images/photo-grid-baikal.jpg"
+                alt="фото прибрежной области с горами на фоне"
+              />
+            </li>
+            <li class="gallery__item">
+              <img
+                class="gallery__item-img"
+                src="./images/photo-grid-elbrus.jpg"
+                alt="фото хребтов гор Эльбруса"
+              />
+            </li>
+            <li class="gallery__item">
+              <img
+                class="gallery__item-img"
+                src="./images/photo-grid-kondratiev.jpg"
+                alt="фото знака пешеходный перехода, на фоне бетонные конструкции"
+              />
+            </li>
+            <li class="gallery__item">
+              <img
+                class="gallery__item-img"
+                src="./images/photo-grid-kamchatka-1.jpg"
+                alt="фото гористой местности Камчатки сверху"
+              />
+            </li>
+            <li class="gallery__item">
+              <img
+                class="gallery__item-img"
+                src="./images/photo-grid-kamchatka-2.jpg"
+                alt="фото Камчатского вулкана"
+              />
+            </li>
+            <li class="gallery__item">
+              <img
+                class="gallery__item-img"
+                src="./images/photo-grid-baikal-2.jpg"
+                alt="фото прибрежной части байкала"
+              />
+            </li>
+            <li class="gallery__item">
+              <img
+                class="gallery__item-img"
+                src="./images/photo-grid-ergaki.jpg"
+                alt="фото природного парка Ергаки"
+              />
+            </li>
+          </ul>
         </section>
         <section class="places wrapper">
           <div class="container">
             <div class="places__item">
-              <header class="places__item-heading">
+              <div class="places__item-heading">
                 <h2 class="places__item-title">Куршская коса</h2>
                 <div class="places__item-url-box">
                   <span class="places__item-url-text">URL</span>
@@ -169,7 +185,7 @@
                     http://park-kosa.ru
                   </a>
                 </div>
-              </header>
+              </div>
               <div class="places__item-body">
                 <img
                   src="./images/place-kosa.jpg"
@@ -195,7 +211,7 @@
               </div>
             </div>
             <div class="places__item">
-              <header class="places__item-heading">
+              <div class="places__item-heading">
                 <h2 class="places__item-title">Кольский</h2>
                 <div class="places__item-url-box">
                   <span class="places__item-url-text">URL</span>
@@ -207,7 +223,7 @@
                     National Geographic
                   </a>
                 </div>
-              </header>
+              </div>
               <div class="places__item-body">
                 <img
                   src="./images/place-kolsky.jpg"
@@ -233,7 +249,7 @@
               </div>
             </div>
             <div class="places__item">
-              <header class="places__item-heading">
+              <div class="places__item-heading">
                 <h2 class="places__item-title">Алтай</h2>
                 <div class="places__item-url-box">
                   <span class="places__item-url-text">URL</span>
@@ -245,7 +261,7 @@
                     YouTube
                   </a>
                 </div>
-              </header>
+              </div>
               <div class="places__item-body">
                 <img
                   src="./images/place-altai.jpg"
@@ -271,7 +287,7 @@
               </div>
             </div>
             <div class="places__item">
-              <header class="places__item-heading">
+              <div class="places__item-heading">
                 <h2 class="places__item-title">Зимний Байкал</h2>
                 <div class="places__item-url-box">
                   <span class="places__item-url-text">URL</span>
@@ -283,7 +299,7 @@
                     https://vk.com/baikalmile
                   </a>
                 </div>
-              </header>
+              </div>
               <div class="places__item-body">
                 <img
                   src="./images/place-winter-baikal.jpg"
@@ -308,7 +324,7 @@
               </div>
             </div>
             <div class="places__item">
-              <header class="places__item-heading">
+              <div class="places__item-heading">
                 <h2 class="places__item-title">Карелия</h2>
                 <div class="places__item-url-box">
                   <span class="places__item-url-text">URL</span>
@@ -320,7 +336,7 @@
                     http://vodlozero.ru/
                   </a>
                 </div>
-              </header>
+              </div>
               <div class="places__item-body">
                 <img
                   src="./images/place-karelia.jpg"
@@ -346,69 +362,77 @@
           </div>
         </section>
         <section class="to-baikal wrapper">
-          <div class="container container_to-baikal_height">
-            <h2 class="to-baikal__title">До Байкала «на собаках»</h2>
+          <a
+            class="to-baikal__container"
+            href="https://stampsy.com/na-elektrichkakh-do-baikala"
+          >
+            <h2 class="to-baikal__title">
+              До Байкала <br />
+              «на собаках»
+            </h2>
             <p class="to-baikal__subtitle">
-              По мотивам учебной темы о Транссибе — путешествие от столицы до
-              Байкала на электричках.
+              По мотивам учебной темы о Транссибе <br />
+              — путешествие от столицы до Байкала <br />
+              на электричках.
             </p>
-            <div class="to-baikal__hover-block"></div>
             <img
               src="./images/cover-trains.jpg"
               alt="фото жд путей, с стоящими на них цестернами и тягачами"
               class="to-baikal__image"
             />
-          </div>
+          </a>
         </section>
       </main>
       <footer class="footer">
-        <ul class="footer__list-items">
-          <li class="footer__list-item">
-            <a
-              class="footer__list-item-link"
-              href="https://yandex.ru/maps"
-              target="_blank"
-            >
-              Карты
-            </a>
-          </li>
-          <li class="footer__list-item">
-            <a
-              class="footer__list-item-link"
-              href="https://yandex.ru/pogoda"
-              target="_blank"
-            >
-              Погода
-            </a>
-          </li>
-          <li class="footer__list-item">
-            <a
-              class="footer__list-item-link"
-              href="https://rasp.yandex.ru"
-              target="_blank"
-            >
-              Расписание
-            </a>
-          </li>
-          <li class="footer__list-item">
-            <a
-              class="footer__list-item-link"
-              href="https://calendar.yandex.ru"
-              target="_blank"
-            >
-              Календарь
-            </a>
-          </li>
-          <li class="footer__list-item">
-            <a
-              class="footer__list-item-link"
-              href="https://travel.yandex.ru"
-              target="_blank"
-            >
-              Путешествия
-            </a>
-          </li>
-        </ul>
+        <nav>
+          <ul class="footer__list-items">
+            <li class="footer__list-item">
+              <a
+                class="footer__list-item-link"
+                href="https://yandex.ru/maps"
+                target="_blank"
+              >
+                Карты
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a
+                class="footer__list-item-link"
+                href="https://yandex.ru/pogoda"
+                target="_blank"
+              >
+                Погода
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a
+                class="footer__list-item-link"
+                href="https://rasp.yandex.ru"
+                target="_blank"
+              >
+                Расписание
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a
+                class="footer__list-item-link"
+                href="https://calendar.yandex.ru"
+                target="_blank"
+              >
+                Календарь
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a
+                class="footer__list-item-link"
+                href="https://travel.yandex.ru"
+                target="_blank"
+              >
+                Путешествия
+              </a>
+            </li>
+          </ul>
+        </nav>
         <p class="footer__copyrights">© 2020. Впишите своё имя</p>
       </footer>
     </div>
