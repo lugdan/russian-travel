@@ -1,0 +1,26 @@
+.places__item-image {
+  width: calc(100% + 32px);
+  object-fit: fill;
+  margin-left: -16px;
+}
+
+@media screen and (min-width: 768px) {
+  .places__item-image {
+    width: 100%;
+    max-width: 340px;
+    max-height: 340px;
+    margin: 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .places__item-image {
+    max-width: 440px;
+    max-height: 440px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .places__item-image {
+    max-width: 460px;
+    max-height: 460px;
+  }
+}
