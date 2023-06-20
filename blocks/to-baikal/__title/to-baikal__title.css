@@ -7,11 +7,13 @@
   color: #fff;
   margin: 0 0 16px 0;
   z-index: 3;
+  max-width: 288px;
 }
 @media screen and (min-width: 768px) {
   .to-baikal__title {
     font-size: 72px;
     line-height: 76px;
     margin: 0 0 32px 0;
+    max-width: 560px;
   }
 }
