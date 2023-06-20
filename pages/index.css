@@ -28,7 +28,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__list-item/intro__list-item.css);
-@import url(../blocks/intro/__list-item_number/intro__list-item_number.css);
+@import url(../blocks/intro/__list-item/_font_weight/intro__list-item_font_weight.css);
 
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__item/gallery__item.css);
