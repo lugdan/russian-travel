@@ -6,9 +6,7 @@
 
 @import url(../blocks/content/content.css);
 
-@import url(../blocks/wrapper/wrapper.css);
-
-@import url(../blocks/container/container.css);
+@import url(../blocks/block-wrapper/block-wrapper.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -18,12 +16,14 @@
 @import url(../blocks/header/__language-switcher-item-text/header__language-switcher-item-text.css);
 
 @import url(../blocks/travels/travels.css);
+@import url(../blocks/travels/__container/travels__container.css);
 @import url(../blocks/travels/__title/travels__title.css);
 @import url(../blocks/travels/__subtitle/travels__subtitle.css);
 @import url(../blocks/travels/__image/travels__image.css);
 @import url(../blocks/travels/__image-subtitle/travels__image-subtitle.css);
 
 @import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__container/intro__container.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
@@ -35,6 +35,7 @@
 @import url(../blocks/gallery/__item-img/gallery__item-img.css);
 
 @import url(../blocks/places/places.css);
+@import url(../blocks/places/__container/places__container.css);
 @import url(../blocks/places/__item/places__item.css);
 @import url(../blocks/places/__item-heading/places__item-heading.css);
 @import url(../blocks/places/__item-title/places__item-title.css);
