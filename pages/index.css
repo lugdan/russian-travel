@@ -28,9 +28,10 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__list-item/intro__list-item.css);
-@import url(../blocks/intro/__list-item/_font_weight/intro__list-item_font_weight.css);
+@import url(../blocks/intro/__list-item-number/intro__list-item-number.css);
 
 @import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__content/gallery__content.css);
 @import url(../blocks/gallery/__item/gallery__item.css);
 @import url(../blocks/gallery/__item-img/gallery__item-img.css);
 
@@ -52,7 +53,6 @@
 @import url(../blocks/to-baikal/__title/to-baikal__title.css);
 @import url(../blocks/to-baikal/__subtitle/to-baikal__subtitle.css);
 @import url(../blocks/to-baikal/__image/to-baikal__image.css);
-@import url(../blocks/to-baikal/__hover-block/to-baikal__hover-block.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__list-items/footer__list-items.css);

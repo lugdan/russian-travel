@@ -6,7 +6,8 @@
 
 @media screen and (min-width: 768px) {
   .places {
-    padding-block: 45px;
+    padding-top: 44px;
+    padding-bottom: 45px;
   }
 }
 

@@ -11,6 +11,7 @@
 @media (hover: hover) and (pointer: fine) {
   .footer__list-item-link {
     cursor: pointer;
+    opacity: 0.8;
   }
 }
 

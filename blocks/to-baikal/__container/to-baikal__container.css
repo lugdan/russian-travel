@@ -28,6 +28,13 @@
 @media (hover: hover) and (pointer: fine) {
   .to-baikal__container {
     cursor: pointer;
+    opacity: 0.8;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .to-baikal__container:hover::after {
+    opacity: 0.8;
   }
 }
 

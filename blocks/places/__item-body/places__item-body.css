@@ -2,21 +2,21 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 @media screen and (min-width: 768px) {
   .places__item-body {
     flex-direction: row;
     gap: 28px;
-    margin-bottom: 73px;
+    /* margin-bottom: 73px; */
   }
 }
 
 @media screen and (min-width: 1024px) {
   .places__item-body {
     gap: 32px;
-    margin-bottom: 80px;
+    /* margin-bottom: 80px; */
   }
 }
 

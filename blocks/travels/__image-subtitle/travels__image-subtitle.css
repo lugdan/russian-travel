@@ -21,13 +21,13 @@
 
 @media screen and (min-width: 1024px) {
   .travels__image-subtitle {
-    padding: 0 48px 0 48px;
+    max-width: 928px;
+    padding: 0;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .travels__image-subtitle {
     max-width: 984px;
-    padding: 0;
   }
 }
