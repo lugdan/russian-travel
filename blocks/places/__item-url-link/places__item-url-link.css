@@ -11,7 +11,7 @@
 }
 
 @media (hover: hover) and (pointer: fine) {
-  .places__item-url-link {
+  .places__item-url-link:hover {
     cursor: pointer;
     opacity: 0.8;
   }

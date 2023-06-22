@@ -9,7 +9,7 @@
 }
 
 @media (hover: hover) and (pointer: fine) {
-  .footer__list-item-link {
+  .footer__list-item-link:hover {
     cursor: pointer;
     opacity: 0.8;
   }

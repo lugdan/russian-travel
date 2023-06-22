@@ -9,7 +9,7 @@
 }
 
 @media (hover: hover) and (pointer: fine) {
-  .header__language-switcher-item-text {
+  .header__language-switcher-item-text:hover {
     cursor: pointer;
     opacity: 0.8;
   }
